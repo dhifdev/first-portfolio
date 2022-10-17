@@ -463,4 +463,18 @@ html {
   .tombol a {
     font-size: 10px;
   }
+
+  #content-2 {
+    display: none;
+  }
+
+  .bungkus-kertas {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .poto-kartun img {
+    width: 176px;
+    height: 129px;
+  }
 }
