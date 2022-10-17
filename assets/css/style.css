@@ -477,4 +477,40 @@ html {
     width: 176px;
     height: 129px;
   }
+
+  #icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .bungkus-konten {
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+  }
+
+  .skil-s1,
+  .skil-s2 {
+    gap: 5px;
+  }
+
+  .skil-s2 {
+    margin-top: 10px;
+  }
+
+  .bungkusabout1 {
+    width: 100%;
+    max-width: 350px;
+    gap: 2px;
+    height: 400px;
+  }
+
+  .bungkus-bio p {
+    font-size: 14px;
+  }
+
+  .bungkus-abi img {
+    width: 240px;
+    height: 230px;
+  }
 }
