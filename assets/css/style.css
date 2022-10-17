@@ -316,6 +316,7 @@ html {
 .submit {
   text-align: center;
   text-decoration: none;
+  color: black;
   width: 100px;
   height: 25px;
   margin-top: 10px;
@@ -512,5 +513,52 @@ html {
   .bungkus-abi img {
     width: 240px;
     height: 230px;
+  }
+
+  .bungkus-contact {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .bungkus-ne {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .bungkus-nama .nama {
+    width: 150px;
+    padding: 3px;
+  }
+
+  .bungkus-email .email {
+    width: 150px;
+    padding: 3px;
+  }
+
+  .text .isitext {
+    width: 333px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    margin-left: 1rem;
+  }
+
+  .bagian-bawah {
+    margin-top: 2rem;
+    font-size: 12px;
+  }
+
+  .bungkus-contactme {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
 }
