@@ -99,7 +99,7 @@ html {
 .cv {
   width: 120px;
   height: 35px;
-  border: 2px solid;
+  border: 3px solid;
   border-radius: 10px;
   text-align: center;
   justify-content: center;
@@ -115,9 +115,9 @@ html {
 
 .cv:hover {
   transition: ease-in-out 0.3s;
-  background-color: #94949c;
   cursor: pointer;
-  color: white;
+  color: blue;
+  border: 3px solid blue;
 }
 
 .bungkus-nama h1 {
@@ -349,6 +349,7 @@ html {
   transition: ease-in-out 0.3s;
   cursor: pointer;
   border: 3px solid blue;
+  color: blue;
 }
 
 .bungkus-sosmed {
